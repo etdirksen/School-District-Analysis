@@ -51,16 +51,15 @@ The School Size Summary gives us a summary of the scores and percentages of all 
 ![School Size Summary DF After](Resources/size_summary.png)
 
 #### _School Type Summary_
-THe School Type Summary gives us a summary of the scores and percentages of all of the schools after they have been grouped into their respective school type categeory. There are only two categories that each school can fall under: District or Charter. There is no change in scores or percentages as a result from replacing the 9th graders scores.
+The School Type Summary gives us a summary of the scores and percentages of all of the schools after they have been grouped into their respective school type categeory. There are only two categories that each school can fall under: District or Charter. There is no change in scores or percentages as a result from replacing the 9th graders scores.
 
 ![School Type Summary DF Before](Resources/type_summary_old.png)
 ![School Type Summary DF After](Resources/type_summary.png)
 
-
-## Summary
 In conclusion, changing the Math and Reading scores of the 9th graders from Thomas High School has had some effects on some of the statistics and calculations as displayed in some of the summaries. For example:
- 
+
 - In the District Summary:
+  - Average Math Score decreased
   - % Passing Math decreased
   - % Passing Reading decreased
   - % Overall Passing decreased
@@ -70,5 +69,7 @@ In conclusion, changing the Math and Reading scores of the 9th graders from Thom
   - % Passing Math decreased
   - % Passing Reading decreased
   - % Overall Passing decreased
-  
-  All of the other formatted summary DFs stayed the same.
+- All of the other formatted summary DFs stayed the same.
+
+## Summary
+Changing the 9th graders' disingenuous scores to NaN caused some changes in a couple of the summary DFs. In both the District Summary DF and the School Summary DF, all stats but the Average Reading score have decreased. Only in the School Summary DF did the Average Reading Score actually increase as a result. All of the other stats in the other summaries stayed the same (in the formatted tables). Because of how the data was grouped together later, the changing of the scores was not enough to make a difference in any of the other statistics.
