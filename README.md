@@ -1,4 +1,4 @@
-# Module 4, Deliverable 3: School District Analysis
+# Challenge 4, Deliverable 3: School District Analysis
 
 ## Overview
 The purpose of this analysis is to measure the academic performance of students who range from several schools, school district types, budget levels, and grade levels. This is to give a clearer picture of how these factors individually and combined can affect academic performance among students. We are measuring academic performance through their Math and Reading test scores. From the beginning of Module 4, we were tasked with helping our friend Maria, who works for the school board, to conduct this analysis which would help them make decisions based on a number of criteria. The challenge has indicated that Maria and her supervisor were notified that the original test score data file which was provided to us contained scores derived from academic dishonesty, and must be re-evaluated.
