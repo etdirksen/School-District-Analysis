@@ -1,13 +1,13 @@
-# Challenge 4, Deliverable 3: School District Analysis
+# School District Analysis
 
 ## Overview
-The purpose of this analysis is to measure the academic performance of students who range from several schools, school district types, budget levels, and grade levels. This is to give a clearer picture of how these factors individually and combined can affect academic performance among students. We are measuring academic performance through their Math and Reading test scores. From the beginning of Module 4, we were tasked with helping our friend Maria, who works for the school board, to conduct this analysis which would help them make decisions based on a number of criteria. The challenge has indicated that Maria and her supervisor were notified that the original test score data file which was provided to us contained scores derived from academic dishonesty, and must be re-evaluated.
+The purpose of this analysis is to measure the academic performance of students who range from several schools, school district types, budget levels, and grade levels. This is to give a clearer picture of how these factors, individually and combined, can affect academic performance among students. I am measuring academic performance through their Math and Reading test scores. I was tasked with conducting this analysis which would help make decisions, based on a number of criteria. I was notified that the original test score data file which was provided to us contained scores derived from academic dishonesty, and must be re-evaluated.
 
 ## Results
-We can measure results as based on a few calculations: Average Math Score, Average Reading Score, % Passing Math,	% Passing Reading, and % Overall Passing. These calculations in the analysis have been grouped together in several different ways for a clearer overall depiction of overall test performance: by school, grade level, school budget (buckets), school size (buckets), and by school type.
+I can measure results as based on a few calculations: Average Math Score, Average Reading Score, % Passing Math,	% Passing Reading, and % Overall Passing. These calculations in the analysis have been grouped together in several different ways for a clearer overall depiction of overall test performance: by school, grade level, school budget (buckets), school size (buckets), and by school type.
 
 #### _District Summary_
-The District Summary shows us a summary of the Average Math Score, Average Reading Score, % Passing Math,	% Passing Reading, and % Overall Passing for all 15 schools combined.
+The District Summary shows a summary of the Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing for all 15 schools combined.
 
 As a result of nullifying the Math and Reading test scores for the 9th graders at Thomas High School, the % Passing Math,	% Passing Reading, and % Overall Passing stats have all decreased. Here are images of the District Summary DataFrame (DF) from the Challenge code (9th grade students scores removed) as opposed to the Module code (not removed).
 
@@ -17,7 +17,7 @@ As a result of nullifying the Math and Reading test scores for the 9th graders a
 There were 461 students whose test scores were not counted towards these stats - these were all the 9th grade students from Thomas High School. The test scores that would have brought up the averages and percentages were not counted, which accounts for the differences.
 
 #### _School Summary_
-The School Summary shows us a summary of the Average Math Score, Average Reading Score, % Passing Math,	% Passing Reading, and % Overall Passing for all 15 schools individually.
+The School Summary shows a summary of the Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing for all 15 schools individually.
 
 The results for this summary are that all of the scores and percentages for Thomas High School have decreased except for the Average Reading score, while the scores for all the other schools stayed the same as a result of not counting the 9th grade Math and Reading test scores from Thomas High School. Below are images from the School Summary DF.
 
@@ -25,7 +25,7 @@ The results for this summary are that all of the scores and percentages for Thom
 ![School Summary DF After](Resources/school_summary.png)
 
 #### _Grade Level Summary_
-The Grade Level Summary (Math and Reading) show us a summary of the scores of each school by grade level. The DFs are split between Math and Reading. As the students are all in high school, the grade levels are only 9-12. The only results shown from this summary are that the 9th grade students' scores from Thomas High School are now marked as "NaN" because of the "academic dishonesty" being outlined at the beginning of the challenege.
+The Grade Level Summary (Math and Reading) shows a summary of the scores of each school by grade level. The DFs are split between Math and Reading. As the students are all in high school, the grade levels are only 9-12. The only results shown from this summary are that the 9th grade students' scores from Thomas High School are now marked as "NaN" because of the "academic dishonesty" being outlined at the beginning of the challenege.
 
 Math
 
